@@ -1,0 +1,7 @@
+(library
+ (name ndsort)
+ (public_name ndsort)
+ (foreign_stubs
+  (language c)
+  (names ndsort_c)
+  (flags -Wall -Ofast -lpthread)))

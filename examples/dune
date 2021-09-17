@@ -1,0 +1,3 @@
+(executable
+ (name fig)
+ (libraries matplotlib ndsort))
